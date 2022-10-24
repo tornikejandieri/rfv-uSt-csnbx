@@ -40,6 +40,8 @@ const Input = () => {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
+
+         
           <button type='submit'>Add Person</button>
         </form>
         {
