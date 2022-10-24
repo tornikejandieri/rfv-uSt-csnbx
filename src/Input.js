@@ -21,9 +21,8 @@ const Input = () => {
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)} 
             />
-
-              
           </div>
+          
           <div className='form-control'>
             <label htmlFor='email'>Email</label>
             <input
