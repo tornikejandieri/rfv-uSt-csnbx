@@ -45,11 +45,12 @@ const Input = () => {
         {
           people.map((person) => {
             const {id, firstName, email} = person
-            return <div key={id}>
+            return (
+                  <div key={id}>
                     <h4>{firstName}</h4>
                     <p>{email}</p>
                   </div>
-          })
+                  )})
         }
       </article>
     </div>
